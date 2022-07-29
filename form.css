@@ -25,7 +25,7 @@ body{
 input{
     width: 400px;
     height: 30px;
-    border-color: blueviolet;
+    border-color: rgba(18, 17, 18, 0.945);
     padding: 3px;
     font-weight: bold;
     margin: 5px;
@@ -39,12 +39,13 @@ input{
 select{
     width: 410px;
     height: 30px;
-    border-color: blueviolet;
+    border-color: rgb(7, 7, 7);
     font-weight: bold;
     border-radius: 5px;
     background: rgba(241, 237, 237, 0);
     outline: none;
     margin-top: 10px;
+    border: solid 2px;
 }
 
 option{
@@ -53,6 +54,36 @@ option{
 
 #rsubmit:hover{
  background: black;
+}
+
+.btn1{
+    /* background: rgb(159, 35, 148); */
+    margin: 2px;
+    border-radius: 5px;
+    padding: 1px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.btn2{
+    /* background: rgb(159, 35, 148); */
+    margin: 2px;
+    border-radius: 5px;
+    padding: 1px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    background: rgb(159, 35, 159);
+}
+
+.btn2:hover{
+    transform: scale(1.1);
+    transition: 0s;
+    background: rgb(159, 35, 148);
 }
 
 /* form{

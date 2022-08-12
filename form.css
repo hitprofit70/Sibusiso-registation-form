@@ -24,7 +24,7 @@ body{
 
 input{
     width: 400px;
-    height: 30px;
+    height: 40px;
     border-color: rgba(18, 17, 18, 0.945);
     padding: 3px;
     font-weight: bold;
@@ -32,7 +32,7 @@ input{
     border-radius: 5px;
     background: rgba(241, 237, 237, 0);
     color: white;
-    margin-top: 10px;
+    margin-top: 20px;
     outline: none;
 }
 
@@ -84,4 +84,9 @@ option{
     transform: scale(1.1);
     transition: 0s;
     background: rgb(159, 35, 148);
+}
+
+form svg{
+    position: absolute;
+    left: 980px;
 }
